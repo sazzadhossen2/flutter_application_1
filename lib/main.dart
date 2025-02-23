@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/donners.dart';
+import 'package:flutter_application_1/home2.dart';
 
 void main() {
   runApp(const Myapps());
@@ -13,7 +14,7 @@ class Myapps extends StatelessWidget {
     return MaterialApp(
       title: 'Blood Donation App',
       theme: ThemeData(primarySwatch: Colors.red),
-      home: DonorListScreen(),
+      home: MyHomePage(),
     );
   }
 }

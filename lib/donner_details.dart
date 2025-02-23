@@ -30,9 +30,7 @@ class DonorDetailsScreen extends StatelessWidget {
             Text("Email: ${donor.email}"),
             SizedBox(height: 20),
             ElevatedButton(
-              onPressed: () {
-                // Here you could add functionality like calling the donor or navigating to a donation page
-              },
+              onPressed: () {},
               child: Text("Contact Donor"),
             ),
           ],
