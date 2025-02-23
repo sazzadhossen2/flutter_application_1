@@ -25,7 +25,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Bottom Navigation Example'),
+        title: Text('Blood Donation'),
       ),
       body: _screens[_currentIndex],
       bottomNavigationBar: BottomNavigationBar(
@@ -41,18 +41,6 @@ class _MyHomePageState extends State<MyHomePage> {
             label: 'Donors',
           ),
         ],
-      ),
-    );
-  }
-}
-
-class DonorListScreens extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Center(
-      child: Text(
-        'List of Donors',
-        style: TextStyle(fontSize: 30),
       ),
     );
   }
