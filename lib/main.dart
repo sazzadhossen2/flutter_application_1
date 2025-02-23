@@ -2,10 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_application_1/donners.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const Myapps());
 }
 
-class MyApp extends StatelessWidget {
+class Myapps extends StatelessWidget {
+  const Myapps({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
