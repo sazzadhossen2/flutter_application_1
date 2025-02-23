@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(const Myapps());
-}
+void runApp(Myapps myapps) {}
 
-class Myapps extends StatelessWidget {
+class Myapps {
   const Myapps({super.key});
 
   @override
