@@ -1,25 +1,17 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/donners.dart';
 
 void main() {
-  runApp(const Myapps());
+  runApp(MyApp());
 }
 
-class Myapps extends StatelessWidget {
-  const Myapps({super.key});
-
+class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: HomeApps(),
+      title: 'Blood Donation App',
+      theme: ThemeData(primarySwatch: Colors.red),
+      home: DonorListScreen(),
     );
-  }
-}
-
-class HomeApps extends StatelessWidget {
-  const HomeApps({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold();
   }
 }
